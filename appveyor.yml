@@ -1,0 +1,20 @@
+image: Visual Studio 2017
+version: '1.0.{build}'
+
+platform: Any CPU
+
+configuration:
+  - Debug
+  - Release
+
+dotnet_csproj:
+  patch: true
+  file: '**\*.csproj'
+  version: '{version}'
+  package_version: '{version}'
+  assembly_version: '{version}'
+  file_version: '{version}'
+  informational_version: '{version}'
+
+before_build:
+  - nuget restore source/Phantasmagoria.sln
