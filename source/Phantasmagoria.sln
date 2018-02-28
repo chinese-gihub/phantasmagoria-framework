@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{B46D9210-F0E2-4A2D-9624-2CB22B508C44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phantasmagoria.Framework", "Phantasmagoria.Framework\Phantasmagoria.Framework.csproj", "{4378EF76-0D44-4C77-92B1-0381119E06FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phantasmagoria.Framework.Game", "Phantasmagoria.Framework.Game\Phantasmagoria.Framework.Game.csproj", "{DFD826C7-5536-4AA2-BC1D-68F3AB4E121D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phantasmagoria.Framework.Audio", "Phantasmagoria.Framework.Audio\Phantasmagoria.Framework.Audio.csproj", "{E73A4656-5A85-47AC-B853-6E364774872D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phantasmagoria.Framework.Graphics", "Phantasmagoria.Framework.Graphics\Phantasmagoria.Framework.Graphics.csproj", "{795EA172-C49F-4B1C-9F57-B2579BDB98C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4378EF76-0D44-4C77-92B1-0381119E06FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4378EF76-0D44-4C77-92B1-0381119E06FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4378EF76-0D44-4C77-92B1-0381119E06FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4378EF76-0D44-4C77-92B1-0381119E06FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD826C7-5536-4AA2-BC1D-68F3AB4E121D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD826C7-5536-4AA2-BC1D-68F3AB4E121D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD826C7-5536-4AA2-BC1D-68F3AB4E121D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD826C7-5536-4AA2-BC1D-68F3AB4E121D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73A4656-5A85-47AC-B853-6E364774872D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73A4656-5A85-47AC-B853-6E364774872D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73A4656-5A85-47AC-B853-6E364774872D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73A4656-5A85-47AC-B853-6E364774872D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795EA172-C49F-4B1C-9F57-B2579BDB98C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795EA172-C49F-4B1C-9F57-B2579BDB98C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795EA172-C49F-4B1C-9F57-B2579BDB98C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795EA172-C49F-4B1C-9F57-B2579BDB98C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4378EF76-0D44-4C77-92B1-0381119E06FD} = {B46D9210-F0E2-4A2D-9624-2CB22B508C44}
+		{DFD826C7-5536-4AA2-BC1D-68F3AB4E121D} = {B46D9210-F0E2-4A2D-9624-2CB22B508C44}
+		{E73A4656-5A85-47AC-B853-6E364774872D} = {B46D9210-F0E2-4A2D-9624-2CB22B508C44}
+		{795EA172-C49F-4B1C-9F57-B2579BDB98C7} = {B46D9210-F0E2-4A2D-9624-2CB22B508C44}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94EAF963-A07D-4122-AF8C-A35C67B8A7F5}
+	EndGlobalSection
+EndGlobal

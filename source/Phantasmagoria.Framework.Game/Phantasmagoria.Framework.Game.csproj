@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Phantasmagoria.Framework</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Phantasmagoria.Framework.Audio\Phantasmagoria.Framework.Audio.csproj" />
+    <ProjectReference Include="..\Phantasmagoria.Framework.Graphics\Phantasmagoria.Framework.Graphics.csproj" />
+    <ProjectReference Include="..\Phantasmagoria.Framework\Phantasmagoria.Framework.csproj" />
+  </ItemGroup>
+
+</Project>
