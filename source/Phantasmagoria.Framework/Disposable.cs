@@ -71,7 +71,7 @@ namespace Phantasmagoria.Framework
 			// Raise the disposing event.
 			var args = new DisposableEventArgs(disposing);
 			Disposing.TryRaise(this, args);
-			
+
 			Dispose(disposing);
 			GC.SuppressFinalize(this);
 

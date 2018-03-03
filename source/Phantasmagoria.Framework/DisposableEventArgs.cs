@@ -6,9 +6,9 @@ namespace Phantasmagoria.Framework
 	/// 
 	/// </summary>
 	[Serializable]
-    public class DisposableEventArgs
+	public class DisposableEventArgs
 		: EventArgs
-    {
+	{
 		private readonly bool disposing;
 
 		/// <summary>
@@ -28,5 +28,5 @@ namespace Phantasmagoria.Framework
 		{
 			this.disposing = disposing;
 		}
-    }
+	}
 }
